@@ -14,8 +14,8 @@ from __future__ import division
 from __future__ import print_function
 
 import keras.backend as K
-from keras.applications.imagenet_utils import _obtain_input_shape
-from keras.applications.imagenet_utils import preprocess_input as _preprocess_input
+from keras_applications.imagenet_utils import _obtain_input_shape
+from keras_applications.imagenet_utils import preprocess_input as _preprocess_input
 from keras.engine.topology import get_source_inputs
 from keras.layers import Activation
 from keras.layers import AveragePooling2D
